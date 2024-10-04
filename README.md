@@ -16,8 +16,8 @@ Make sure you have the following installed on your machine:
 1. **Clone the Repository**
 
 ```bash
-    git clone https://github.com/TechHomie/front-end-test.git
-    cd front-end-test
+git clone https://github.com/TechHomie/front-end-test.git
+cd front-end-test
 ```
 
 2. **Install Dependencies**
@@ -25,7 +25,7 @@ Make sure you have the following installed on your machine:
    Run the following command to install all the required dependencies:
 
 ```bash
-    npm install
+npm install
 ```
 
 3. **Copy Environment Variables**
@@ -33,10 +33,10 @@ Make sure you have the following installed on your machine:
    Copy the contents of the `.env.example` file into a new `.env.local` file:
 
 ```bash
-    cp .env.example .env.local
+cp .env.example .env
 ```
 
-   Modify the environment variables in `.env.local` as needed.
+   Modify the environment variables in `.env` as needed.
 
 ### Running the Development Server
 
